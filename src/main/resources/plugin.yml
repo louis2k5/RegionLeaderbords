@@ -1,0 +1,10 @@
+name: RegionLeaderboards
+version: 1.0
+main: de.server.regionleaderboards.RegionLeaderboards
+api-version: '1.21'
+depend: [WorldGuard]
+commands:
+  lb:
+    description: Hauptbefehl für Leaderboards
+    permission: leaderboard.admin
+    usage: /lb <create|remove|list> [name] [typ] [region]
